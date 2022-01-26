@@ -590,7 +590,7 @@ public class BTreeFile implements DbFile {
 		if(moveTuple==null || !moveTuple.hasNext())
 			throw new DbException("sibling has no tuple");
 
-		int numSteal = (sibling.getNumTuples() - page.getNumTuples())/2;
+		int 	 = (sibling.getNumTuples() - page.getNumTuples())/2;
 		Tuple t = null;
 		for(int i=0; i<numSteal; ++i)
 		{
