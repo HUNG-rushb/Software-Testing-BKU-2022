@@ -41,7 +41,7 @@ TYPE,//*[@id="__next"]/div/div[8]/div/div[2]/div/div[5]/div/div/div[6]/div/div/d
 WAIT,1,
 CLICK,//*[@id="__next"]/div/div[8]/div/div[2]/div/div[5]/div/div/div[7]/div[2]/button[2],
 END,,
-START,CREATE_JOB_ALERT,
+START,TEST_CREATE_JOB_ALERT,
 GOTOURL,https://www.vietnamworks.com/,
 CLICK,//*[@id="__next"]/div[1]/div[2]/div[4]/div[1]/div,
 CLICK,//*[@id="__next"]/div[1]/div[2]/div[4]/div[2]/div[2]/a[3],
