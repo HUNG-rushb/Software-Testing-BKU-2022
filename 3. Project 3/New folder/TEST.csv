@@ -1,0 +1,26 @@
+﻿START,TEST1,
+GOTOURL,https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin,
+TYPE,"//*[@id=""username""]",andrew.viquang@gmail.com
+TYPE,"//*[@id=""password""]",Quangchanvi5122001
+CLICK,"//*[@id=""organic-div""]/form/div[3]/button",
+CLICK,/html/body/div[6]/div[3]/div/div/div[2]/div/div/main/div[1]/div/div[1]/button,
+WAIT,4,
+CLICK,/html/body/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div[3]/button,
+END,,
+START,TEST2,
+CLICK,/html/body/div[3]/div/div/button,
+WAIT,4,
+CLICK,/html/body/div[6]/div[3]/div/div/div[2]/div/div/main/div[1]/div/div[1]/button,
+WAIT,2,
+TYPE,/html/body/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/p,"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+WAIT,2,
+CLICK,/html/body/div[3]/div/div/button,
+CLICK,/html/body/div[3]/div[2]/div/div[3]/button[2],
+END,,
+START,TEST3,
+CLICK,/html/body/div[6]/div[3]/div/div/div[2]/div/div/main/div[1]/div/div[1]/button,
+WAIT,2,
+TYPE,/html/body/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div/div/div[2]/div/div/div[1]/p,"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+WAIT,2,
+CLICK,/html/body/div[3]/div/div/div[2]/div/div/div[2]/div[2]/div[3]/button,
+END,,

@@ -1,6 +1,6 @@
 # jonit91278@wowcg.com
 # H123456
-# TYPE,"//*[@id=""username""]",andrew.viquang@gmail.com
+# TYPE,"//*[@id=""username""]",andrew.viquang@gmail.com /html/body/div[2]/form/div[1]/input
 import csv 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -134,9 +134,11 @@ def main(filename):
         value=row[2] if len(row)>2 else ""
         # print(action)
         func=switcher.get(action)
+
         if func is None: 
-            print("Sai lệnh, dừng test")
+            print(" Sai lệnh, dừng test")
             break
+
         err = func(target,value,err)
 
 print("Let's fucking test lmao")
