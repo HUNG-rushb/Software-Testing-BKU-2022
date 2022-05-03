@@ -139,4 +139,6 @@ def main(filename):
         err = func(target,value,err)
 
 
-main("TEST.csv")
+main("TEST_1_2.csv")
+# main("TEST_3.csv")
+# main("TEST_4.csv")

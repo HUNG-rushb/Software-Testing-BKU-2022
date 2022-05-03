@@ -1,0 +1,11 @@
+START,TEST1,
+GOTOURL,https://www.vietnamworks.com/,
+CLICK,//*[@id="__next"]/div[1]/div[2]/div[4]/div[1]/div,
+CLICK,//*[@id="__next"]/div[1]/div[2]/div[4]/div[2]/div[3]/a,
+TYPE,"//*[@id=""firstname""]",khoa
+TYPE,"//*[@id=""lastname""]",nguyen
+TYPE,"//*[@id=""username""]",wpu87361@zcrcd.com
+TYPE,"//*[@id=""password""]",A12345
+CLICK,//*[@id="button-register"],
+END,,
+
